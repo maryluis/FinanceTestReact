@@ -3,7 +3,6 @@
 function dataReducer(state = [], action) {
     
     if(action.type === 'PUT_DATA') {
-        //debugger
         return action.data;
     }
      else { 

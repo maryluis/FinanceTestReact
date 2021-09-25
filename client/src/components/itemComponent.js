@@ -14,7 +14,7 @@ export const Item = ({title, percent, changed, price}) => {
     useEffect(() => checkPrice(oldPrice, price), [price])
 
     return(
-        <div role="item" className={`flex spaceBetween itemWidth itemHeight paddingOver item textStyle`}>
+        <div role="treeitem" className={`flex spaceBetween itemWidth itemHeight paddingOver item textStyle`}>
             <div className="flex center">
                 <div className="flex center margin">
                     {color === "green" ? 

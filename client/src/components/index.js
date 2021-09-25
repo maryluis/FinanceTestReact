@@ -1,4 +1,3 @@
-import CPriceContainer from "./priceContainer";
+import {CPriceContainer , PriceContainer} from "./priceContainer";
 import { Item } from "./itemComponent";
-
-export {CPriceContainer, Item};
+export {CPriceContainer, PriceContainer, Item};
